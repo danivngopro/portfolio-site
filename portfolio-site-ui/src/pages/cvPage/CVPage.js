@@ -1,5 +1,5 @@
 import "./CVPage.css";
-import RedCycleButton from "../../components/ui/buttons/cvDownloadButton/RedCycleButton";
+import RedCycleButton from "./components/buttons/cvDownloadButton/RedCycleButton";
 
 function CVPage() {
   return (
