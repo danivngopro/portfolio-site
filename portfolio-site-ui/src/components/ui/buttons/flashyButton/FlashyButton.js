@@ -2,7 +2,7 @@ import "./FlashyButton.css";
 
 function FlashyButton(props) {
   return (
-    <button className="flashyButton">{props.text}</button>
+    <button className="flashyButton" onClick={props.onClick}>{props.text}</button>
   );
 }
 

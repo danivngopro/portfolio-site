@@ -1,7 +1,8 @@
 .appContainer {
-  background: url("./assets/background.png") no-repeat;
+  margin-left: 9px;
+  background: url("./assets/background.png");
   background-size: 100% 100%;
-  width: 100vw;
-  height: 100vh;
+  width: 94rem;
+  height: 100%;
   color: rgb(244, 235, 204);
 }

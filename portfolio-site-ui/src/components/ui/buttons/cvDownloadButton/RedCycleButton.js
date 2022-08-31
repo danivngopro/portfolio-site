@@ -2,7 +2,7 @@ import "./RedCycleButton.css";
 
 function RedCycleButton(props) {
   return (
-    <a href="#" className="animated-button7">
+    <a href="Daniel Ventura CV.pdf" download="Daniel Ventura CV.pdf" className="animated-button7">
       <span></span>
       <span></span>
       <span></span>
