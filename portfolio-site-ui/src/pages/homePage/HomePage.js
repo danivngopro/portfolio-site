@@ -1,5 +1,6 @@
 import "./HomePage.css";
-import Button from '@mui/material/Button';
+import FlashyButton from "../../components/ui/buttons/flashyButton/FlashyButton";
+
 function HomePage() {
   return (
     <div className="home-page-container">
@@ -10,7 +11,7 @@ function HomePage() {
       <div className="home-page-transferer">
         <p className="home-page-transferer_text">if you're here, you have come to check me out</p>
         <p className="home-page-transferer_text">well then?</p>
-        <button className="home-page-transferer_button"> let's get started</button>
+        <FlashyButton text="let's get started"/>
       </div>
     </div>
   );
