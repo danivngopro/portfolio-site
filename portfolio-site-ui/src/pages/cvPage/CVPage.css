@@ -1,4 +1,28 @@
 .cv-page-button-container {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
+}
+
+.cv-page-text-container {
+  text-align: left;
+  margin-left: 3rem;
+}
+
+.cv-page-headline {
+  margin-top: 30px;
+  font-size: 3rem;
+  margin-bottom: 1px;
+  color: rgb(196, 145, 244);
+}
+
+.cv-page-headline_text {
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.cv-page-headline_text_subheadline {
+  color: rgb(244, 135, 244);
+  margin-top: 10px;
+  margin-bottom: 4px;
 }
