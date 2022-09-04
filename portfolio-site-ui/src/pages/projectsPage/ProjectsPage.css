@@ -1,23 +1,33 @@
+.projects__page__container {
+  margin-bottom: 14rem;
+}
+
 .projects__page-project-container {
   text-align: left;
   margin-left: 3rem;
 }
 
 .projects__page-project-title {
-  font-size: 2rem;
-  color: rgb(196, 145, 244);
+  color: #5ea5b8ff;
   margin-bottom: 1px;
   margin-top: 30px;
+  font-size: 3rem;
+  color: #5ea5b8ff;
+  font-family: Montserrat;
 }
 
 .projects__page-project-github {
   margin-top: 0px;
   margin-bottom: 4px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
 }
 
 .projects__page-project-live {
   margin-top: 0px;
   margin-bottom: 4px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
 }
 
 .projects__page-project-link {
@@ -26,6 +36,8 @@
 
 .link {
   margin-top: -4px;
-  color: rgb(152, 196, 228);
+  color: #c0d6dfff;
   text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
 }

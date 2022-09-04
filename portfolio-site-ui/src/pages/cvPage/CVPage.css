@@ -11,18 +11,21 @@
 
 .cv-page-headline {
   margin-top: 30px;
-  font-size: 3rem;
+  font-size: 5rem;
   margin-bottom: 1px;
-  color: rgb(196, 145, 244);
+  color: #5ea5b8ff;
+  font-family: Montserrat;
 }
 
 .cv-page-headline_text {
   margin-top: 0px;
   margin-bottom: 4px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
 }
 
 .cv-page-headline_text_subheadline {
-  color: rgb(244, 135, 244);
+  color: rgb(134, 197, 224);
   margin-top: 10px;
   margin-bottom: 4px;
 }

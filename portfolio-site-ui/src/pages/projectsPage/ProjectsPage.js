@@ -3,7 +3,7 @@ import { projects } from "../../data/projects";
 
 function ProjectsPage() {
   return (
-    <>
+    <div className="projects__page__container">
       {projects ? (
         <>
           {projects.map(function (project, index) {
@@ -12,14 +12,14 @@ function ProjectsPage() {
                 <p className="projects__page-project-title">{project.title}</p>
                 <div className="projects__page-project-link">
                   <p className="projects__page-project-github">
-                    link to source code on github:{" "}
+                    Github:{" "}
                   </p>
                   <a className="link" href={project.github}>{project.github}</a>
                 </div>
                 {project.live && (
                   <div className="projects__page-project-link">
                     <p className="projects__page-project-live">
-                      link to live project:{" "}
+                      Live project:{" "}
                     </p>
                     <a className="link" href={project.live}>{project.live}</a>
                   </div>
@@ -29,7 +29,7 @@ function ProjectsPage() {
           })}
         </>
       ) : null}
-    </>
+    </div>
   );
 }
 

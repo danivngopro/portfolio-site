@@ -36,7 +36,7 @@ export const projects = [
     live: "",
   },
   {
-    title: "Self Driving Cas - Machine Learning",
+    title: "Self Driving Cars - Machine Learning",
     github: "https://github.com/danivngopro/NEAT-Reinforcement-Learning-CarAI",
     live: "",
   },

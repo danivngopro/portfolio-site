@@ -1,5 +1,6 @@
 import "./HomePage.css";
 import FlashyButton from "../../components/ui/buttons/flashyButton/FlashyButton";
+import HomeSummery from "./components/HomeSummery";
 import { useRef } from "react";
 
 function HomePage() {
@@ -22,10 +23,10 @@ function HomePage() {
           If you're here, you have come to check me out
         </p>
         <p className="home-page-transferer_text">well then?</p>
-        <FlashyButton text="let's get started" onClick={handleClick}/>
+        <FlashyButton text="let's get started" onClick={handleClick} />
       </div>
-      <div className="home-page-secondbase-container">
-        <h1 ref={trackButton}>hello bitch</h1>
+      <div ref={trackButton} className="home-page-secondbase-container">
+        <HomeSummery />
       </div>
     </div>
   );
