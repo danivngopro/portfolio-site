@@ -1,0 +1,31 @@
+.projects__page-project-container {
+  text-align: left;
+  margin-left: 3rem;
+}
+
+.projects__page-project-title {
+  font-size: 3rem;
+  color: rgb(196, 145, 244);
+  margin-bottom: 1px;
+  margin-top: 30px;
+}
+
+.projects__page-project-github {
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.projects__page-project-live {
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.projects__page-project-link {
+  display: flex;
+}
+
+.link {
+  margin-top: -4px;
+  color: rgb(152, 196, 228);
+  text-decoration: underline;
+}
