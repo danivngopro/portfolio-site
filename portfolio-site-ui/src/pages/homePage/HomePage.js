@@ -2,14 +2,24 @@ import "./HomePage.css";
 import FlashyButton from "../../components/ui/buttons/flashyButton/FlashyButton";
 import HomeSummery from "./components/HomeSummery";
 import { useRef } from "react";
+import { useNavigate } from "react-router-dom";
 
 function HomePage() {
+  const navigation = useNavigate();
   const trackButton = useRef(null);
 
   const handleClick = () => {
     trackButton.current?.scrollIntoView({
       behavior: "smooth",
     });
+  };
+
+  const handleClickcv = () => {
+    navigation("/cv");
+  };
+
+  const handleClickProjects = () => {
+    navigation("/projects");
   };
 
   return (
@@ -27,6 +37,15 @@ function HomePage() {
       </div>
       <div ref={trackButton} className="home-page-secondbase-container">
         <HomeSummery />
+        <div className="buttons-container">
+          <div className="gotocvpage">
+            <FlashyButton text="Go to CV Page" onClick={handleClickcv} />
+            <FlashyButton
+              text="See my projects"
+              onClick={handleClickProjects}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

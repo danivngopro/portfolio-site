@@ -25,7 +25,20 @@
 
 .home-page-secondbase-container {
   height: 50rem;
-  margin-top: 15rem;
+  margin-top: 16rem;
   font-family: cursive;
   font-size: 2rem;
+}
+
+.gotocvpage {
+  margin-top: -3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.buttons-container {
+display: flex;
+justify-content: center;
 }

@@ -1,5 +1,21 @@
 export const projects = [
   {
+    title: "interview-test-dots-on-screen",
+    github: "https://github.com/danivngopro/interview-test-dots-on-screen",
+  },
+  {
+    title: "Resturant App",
+    github: "https://github.com/danivngopro/resturant-app",
+  },
+  {
+    title: "Aman Forms Backend",
+    github: "https://github.com/TechOpsAman/AmanFormsBack",
+  },
+  {
+    title: "Aman Forms Frontend",
+    github: "https://github.com/TechOpsAman/AmanFormsFront",
+  },
+  {
     title: "TODO App",
     github: "https://github.com/danivngopro/ToDoApp",
     live: "https://todo.sharpervn.com",

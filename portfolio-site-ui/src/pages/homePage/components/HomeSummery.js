@@ -22,8 +22,8 @@ function HomeSummery() {
       <dl>
         <dt>Front-end</dt>
         <dd>
-          UI UX design and development, Front-end development with react, firebase, 
-          javascript, various extentions and packages.
+          UI UX design and development, Front-end development with react, angular, react-native (android), firebase, 
+          javascript, typescript, various extentions and packages.
         </dd>
         <dt>Back-end</dt>
         <dd>
